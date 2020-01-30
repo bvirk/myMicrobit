@@ -1,0 +1,2 @@
+# myMicrobit
+Microbit notes (danish)
