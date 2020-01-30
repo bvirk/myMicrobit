@@ -1,47 +1,9 @@
-Filer på denne webside
-----------------------
-
-### Download som mappe på egen computer
-
-- [installere git](https://git-scm.com/downloads) 
-- åbn et console vindue (windows: Sartknap->kør->skriv cmd)
-- udfør kommandoen: <b>git clone https://github.com/bvirk/myMicrobit</b>
-
-----
-
-### Min egen regel om filendelser for microbit program og hex filer
-
-Microbit hex filer skal ende på .hex fordi
-
-- block og python editor vil kun hente dem ind hvis de hedder .hex
-- _ikke_ for at kunne flashe - microbit drevet er ligeglad med fil-endelsen
-
-#### regel
-
-- block hex fil: .t.hex
-- block program fil: .ts
-- python hex fil: .p.hex
-- python program fil: .py
-
-### Sproget dansk i program filer
-
-Det er lettest at huske og forstå når ord kan genkendes - engelske ord gør førstegangs forståelsen sværere for danskere.  
-
-Jeg bruger engelske ord i programmer! - af andre grunde
-
-Så - 'en knap' hedder 'a button' osv. - det er ikke Shakespeare engelsk!
-
-[probarbility of getting online help and important knowledge](https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers)
-
-Eller på  dansk: sansynligheden for at finde beskrivelser og løsninger er 200 gange højere på engelsk end dansk.
-
 Denne README.md fil beskriver
 -----------------------------
 
 - links
-- noter
-- lidt om mine små projekter
-
+- file endelser
+- lidt om hver af mine små microbit projekter
 
 ### programmering  og viden på microbit.com
 
@@ -65,7 +27,19 @@ Denne README.md fil beskriver
 
 - [mbed microbit](https://os.mbed.com/teams/microbit/)
 
-## project [plotBarSTick](https://makecode.microbit.org/_WgzEqqPCVcR9)
+----
+
+#### fil endelser for microbit programmer
+
+- block hex fil: .t.hex
+- block program fil: .ts
+- python hex fil: .p.hex
+- python program fil: .py
+
+----
+
+
+### project [plotBarSTick](https://makecode.microbit.org/_WgzEqqPCVcR9)
 
 ##### Beskrivelse
 
