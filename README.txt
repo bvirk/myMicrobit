@@ -25,9 +25,9 @@ Microbit hex filer skal ende på .hex fordi
 
 ### Sproget dansk i program filer
 
-Det er lettest at huske og forstå når ord kan genkendes - engelske ord kan gøre forståelse sværere.  
+Det er lettest at huske og forstå når ord kan genkendes - engelske ord gør førstegangs forståelsen sværere for danskere.  
 
-Jeg gør _ikke_ i programmer!
+Jeg bruger engelske ord i programmer! - af andre grunde
 
 Så - 'en knap' hedder 'a button' osv. - det er ikke Shakespeare engelsk!
 
