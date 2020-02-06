@@ -24,4 +24,4 @@
     - giv den knappepuf styring.
     - skift fra højre/venste til op/ned med tryk på begge taster
     - lad intensiteten i modsat plan også være funktionsafhængig - prøv med forskellige funtioner
-    - infør functions skift ved at holde en knap nede og cykle gennem funktionsvalg med den anden
+    - indfør functions skift ved at holde en knap nede og cykle gennem funktionsvalg med den anden
