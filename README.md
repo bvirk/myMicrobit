@@ -1,11 +1,4 @@
-Denne README.md fil beskriver
------------------------------
-
-- links
-- file endelser
-- lidt om hver af mine små microbit projekter
-
-### programmering  og viden på microbit.com
+### microbit.com links
 
 
 - [blocks or python](https://www.microbit.org/code)
@@ -23,34 +16,23 @@ Denne README.md fil beskriver
 - [Breakout board](https://www.kitronik.co.uk/pdf/5601b_built_edge_connector_breakout_board_for_the_bbc_microbit_datasheet_v1_1.pdf)
 - [servo motor](https://learn.sparkfun.com/tutorials/hobby-servo-tutorial/all)
 
-### dyberegående hardware
-
-- [mbed microbit](https://os.mbed.com/teams/microbit/)
-
-----
-
-#### fil endelser for microbit programmer
-
-- block hex fil: .t.hex
-- block program fil: .ts
-- python hex fil: .p.hex
-- python program fil: .py
-
-----
-
 
 ### project [plotBarSTick](https://makecode.microbit.org/_WgzEqqPCVcR9)
 
-##### Beskrivelse
+Shows voltage input on AnalogPin.P0. The reading is presented as a 25 leds stick, starting from bottom right corner and twisted at left for continueing at above row's right side. From 0 to 3.3.v is shown respectively as from no led's to all 25 led's lightening.  
 
-Viser spænding som input fra AnalogPin.P0 som en pind der starter i nederste højre hjørne og er knækket af hver i venstre side for at fortsætte i linien over i højre side.
+The measurement appears one of following ways
 
-Fra 0 til 3.3 volt viser som fra ingen til alle lysdioder tændt.  
-
-Målingen optræder også som output på AnalogPin.p1 på en af måderne
-
-1. Pulsbredde til en servo - positiv signal af 1-2 ms varighed hver 20ms
-2. Pulsbredde hvis 20ms periodetid kan varieres i dutycycle fra næsten 0 til næsten 100
-3. Intet signal - udgang lav.
+1. PWM signal to a servo - positive signal of 1-2 ms length every 20ms
+2. PWM signal, which 20ms time period dutycycle can be cnged fra nearly  0 to almost næsten 100
+3. No signal - output low.
 
 ### Project [binClock](https://makecode.microbit.org/_LCHfvVM7pJYP)
+
+Binary clock - the led rows shows, counting from top
+
+1. hours
+2. tens of minuts
+3. ones of minuts
+4. tens of seconds
+5. ones of seconds
