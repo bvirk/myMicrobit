@@ -1,18 +1,7 @@
-## Aflæsning af numerisk keybad, generelt
+## Reading keypad
 
-Generelt muliggøres aflæsning af keypads ved at taster er forbundet i krydsningspukter mellem et antal ledere på en led og et andet antal ledere på en anden led.  
-
-Det ene antal ledere, her kaldet rækker er input der som udgangspukt har digital niveau 1 idet der er forbundet med pullup modstande til vcc (spænding på 3.3 volt)
-
-Det andet antal ledere, her kaldet søjler (eng. columns) er udgange der som udgangspunkt har nivea høj.
-
-Man genneløber så en cyklys hvor der læses niveauet på alle rækker for hver gang en enkelt søjle er holdt lav.
 
 ## Pins i Microbit
-
-er enums konstanter som DigitalPin.P5 hvilket i virkeligheden er andre heltal (musmarkør over P5 i bloks typescript (misvisende kaldet javascript) viser det). Visse programmeringstricks er lettere med heltal - måden er indeksering med arrays 
-
-
 
     P0 ---1---2---3 
           |   |   | 
@@ -25,7 +14,7 @@ er enums konstanter som DigitalPin.P5 hvilket i virkeligheden er andre heltal (m
          P5  P11  P16  
 
 
-## Bloks typescript
+## [makecode.microbit typescript](https://makecode.microbit.org/_LaYf5cC3ahEF)
 
 
     function readSteadyRow(row: number): number {
@@ -72,8 +61,7 @@ er enums konstanter som DigitalPin.P5 hvilket i virkeligheden er andre heltal (m
             basic.showString(" 123456789*0#".charAt(key), 1)
     })
 
-     
-[readKeyPad](https://makecode.microbit.org/_LaYf5cC3ahEF) som makecode.microbit.org project _VIRKER IKKE_     
+## Evaluation
 
-
+Some false reading! test broke p sequence with ocsillioscop - or just buy a i2c ship
 

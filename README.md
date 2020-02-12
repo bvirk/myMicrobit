@@ -53,22 +53,4 @@ Målingen optræder også som output på AnalogPin.p1 på en af måderne
 2. Pulsbredde hvis 20ms periodetid kan varieres i dutycycle fra næsten 0 til næsten 100
 3. Intet signal - udgang lav.
 
-##### OM
-
-1. lavet i typescript (som ikke helt er javascript)
-2. udkommentering forsvinder ved tilbageskift til typescript
-3. function plotBarStick
-    - x,y
-    - plot
-    - stick
-    - Dirty trick |0
-4. enums
-5. visningstilstand
-6. dirty trick ^1
-7. clearScreen vs basic.clearScreen
-8. lower camelcase
-9. PulseWidth  vs NoneOut
-10. showVoltage - retvisende implicit sandhedsværdi
-11. block - se udkommentering
-
-
+### Project [binClock](https://makecode.microbit.org/_LCHfvVM7pJYP)
