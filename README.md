@@ -36,3 +36,5 @@ Binary clock - the led rows shows, counting from top
 3. ones of minuts
 4. tens of seconds
 5. ones of seconds
+
+### project [tsOLED](https://makecode.microbit.org/_Y5iFb7dwYEhh)
