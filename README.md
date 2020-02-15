@@ -38,3 +38,20 @@ Binary clock - the led rows shows, counting from top
 5. ones of seconds
 
 ### project [tsOLED](https://makecode.microbit.org/_Y5iFb7dwYEhh)
+
+### Future awesome Projects
+
+- reciever for being a terminal
+    - over bluetooth from app
+    - over pc using usb or bluetooth
+- writting to OLED display, implementing library:
+    - lines to scrolling screen implementing
+        - cr as \r 
+    - redering mechanism for plotting rectangles of text - including
+        - left/right/center rectangles
+        - virtual y in sequence of block writing for expanding fields vertically
+- lcr meter and transistor hfe tester
+- controlling power supply
+    - adjustable voltage/current
+    - signal generation
+    
