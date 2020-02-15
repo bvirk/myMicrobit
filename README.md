@@ -1,4 +1,4 @@
-### microbit.com links
+### microbit.org links
 
 
 - [blocks or python](https://www.microbit.org/code)
