@@ -1,18 +1,6 @@
-### History of micro:bit learning a simple minded man internet of things
+### [OLED display, 128x64 pixels, ssd1306 compatible](https://os.mbed.com/users/bvirk/code/microbitOLED/)
 
-1. [makecode.com](https://www.microbit.org/code)
-    1. blocks programming
-    2. typescript (named javascript) programming as a between layer
-    3. integration with github and sharing using links.
-    4. following links to [lancaster univercity](https://lancaster-university.github.io/microbit-docs/) and discrovery of equality of interface with typescript
-2. [mbed.com](https://www.mbed.com/en/)
-    1. struggling with finding needed component and cross searching inside for being clever
-    2. Finding out that class Microbit is a final layer upon DAL and HAL
-    2. Poject OLED - [code  snippets](https://github.com/Tinkertanker/pxt-oled-ssd1306) borrowed  
-
-### OLED display, 128x64 pixels, ssd1306 compatible
-
-... is about investigation and debug alternatives - in absense of other communications (seriel usb, bluetooth)
+Deals with
 
 - Displaying at OLED display
 - Having displaying in 25 led's display as a debugging alternative
@@ -58,3 +46,12 @@ Two clocks, one with seconds and one without and assert output decimal values gr
 
 #### 3. Flags
 The single bits of a 25 bit value is set individualy. Example_flag show some poor use. 
+
+
+
+
+
+#### Links
+
+- [lancaster univercity MicroBit docs](https://lancaster-university.github.io/microbit-docs/) 
+- [borrowed code  snippets](https://github.com/Tinkertanker/pxt-oled-ssd1306)  
