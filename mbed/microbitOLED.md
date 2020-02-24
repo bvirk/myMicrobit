@@ -1,10 +1,13 @@
 ### [OLED display, 128x64 pixels, ssd1306 compatible](https://os.mbed.com/users/bvirk/code/microbitOLED/)
 
+![Microbit i2c driven oled](http://localhost/cyberkiss/img/ssd1306Clip.jpg)
+
 Deals with
 
 - Displaying at OLED display
 - Having displaying in 25 led's display as a debugging alternative
-- Making code framents to investigate microbit soft- and harware
+- Making code framents to investigate microbit soft- and hardware
+
 
 #### 25 led's display - class Display
 
