@@ -1,6 +1,6 @@
 ### [OLED display, 128x64 pixels, ssd1306 compatible](https://os.mbed.com/users/bvirk/code/microbitOLED/)
 
-![Microbit i2c driven oled](http://localhost/cyberkiss/img/ssd1306Clip.jpg)
+![Microbit i2c driven oled](ssd1306Clip.jpg)
 
 Deals with
 
