@@ -55,7 +55,7 @@ The single bits of a 25 bit value is set individualy. Example_flag shows program
 
 #### Code for trying thing out
 
-In main.cpp, int main uses function pointer to make a command pattern - if a device has the program to talk Bluetooth to microbit, it would be possible to chose example to run from that device.   
+In main.cpp, int main uses function pointer to make a command pattern - if a device has the program to talk Bluetooth to microbit, it would be possible to chose example from that device. I find it, due to its absence of variable  and intermediate states 'shouting', as appealing as a shells command prompt in flavour of a graphical interface. 
 
 In example_peek.cpp, things a tried to conclude on things hard to find information about. Duckduckgo don't seems to be the same sort of friend in these areas as eg. programming in JAVA. Besides - it is fun to recover c/c++ knowledge
 
