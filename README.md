@@ -1,13 +1,17 @@
 ### microbit.org links
 
-
-- [blocks or python](https://www.microbit.org/code)
-    - blocks and javascript coding
-        - [let's code](https://makecode.microbit.org/#lang=da)
-        - [reference](https://makecode.microbit.org/reference)
-    - micro python
-        - [let's code](https://python.microbit.org/) (starter editor)
-        - [reference](https://microbit-micropython.readthedocs.io/en/latest/) : [via](https://microbit.org/guide/python/)
+- programming
+    - [blocks or python](https://www.microbit.org/code)
+        - blocks and javascript coding
+            - [let's code](https://makecode.microbit.org/#lang=da)
+            - [reference](https://makecode.microbit.org/reference)
+        - micro python
+            - [let's code](https://python.microbit.org/) (starter editor)
+            - [reference](https://microbit-micropython.readthedocs.io/en/latest/) : [via](https://microbit.org/guide/python/)
+    - c++
+        - [Getting Started With C/C++ On The Micro:bit](https://www.iot-programmer.com/index.php/books/27-micro-bit-iot-in-c/chapters-micro-bit-iot-in-c/1-getting-started-with-c-c-on-the-micro-bit?start=1)
+        - [lancaster university library](https://lancaster-university.github.io/microbit-docs/)
+        - [online compiler at mbed.org](https://ide.mbed.com/compiler)
 - [firmware flashing](https://microbit.org/guide/firmware/)
 
 ### hardware
@@ -37,21 +41,3 @@ Binary clock - the led rows shows, counting from top
 4. tens of seconds
 5. ones of seconds
 
-### project [tsOLED](https://makecode.microbit.org/_Y5iFb7dwYEhh)
-
-### Future awesome Projects
-
-- reciever for being a terminal
-    - over bluetooth from app
-    - over pc using usb or bluetooth
-- writting to OLED display, implementing library:
-    - lines to scrolling screen implementing
-        - cr as \r 
-    - redering mechanism for plotting rectangles of text - including
-        - left/right/center rectangles
-        - virtual y in sequence of block writing for expanding fields vertically
-- lcr meter and transistor hfe tester
-- controlling power supply
-    - adjustable voltage/current
-    - signal generation
-    
