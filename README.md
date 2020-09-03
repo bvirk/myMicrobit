@@ -41,3 +41,6 @@ Binary clock - the led rows shows, counting from top
 4. tens of seconds
 5. ones of seconds
 
+### mbed.org Project  [OLED display](mbed/microbitOLED.md)
+
+Display on a 128x64 pixels, ssd1306 compatible.
