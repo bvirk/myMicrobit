@@ -20,6 +20,9 @@
 - [Breakout board](https://www.kitronik.co.uk/pdf/5601b_built_edge_connector_breakout_board_for_the_bbc_microbit_datasheet_v1_1.pdf)
 - [servo motor](https://learn.sparkfun.com/tutorials/hobby-servo-tutorial/all)
 
+### project [LED dimmer](https://makecode.microbit.org/_Xt4L8Dcpybvy)
+Dimmers LED stripes by PWM controlling a Power MOSFET using Microbit AnalogPin.P0. Dimmed level presented at microbit as a 25 leds stick.
+ ![Led Dimmer](LEDDimmer.png)
 
 ### project [plotBarSTick](https://makecode.microbit.org/_WgzEqqPCVcR9)
 
